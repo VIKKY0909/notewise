@@ -3,9 +3,6 @@
 
 NoteWise is a personal AI-powered study tool designed to help users generate notes, summaries, Q&A, and flashcards from uploaded lectures or PDF documents. The project leverages modern web technologies and AI to streamline the study process and enhance exam preparation.
 
-## Project Purpose
-
-This project is intended for personal or internal use only. It is not meant to be copied, redistributed, or used as a template for other projects.
 
 ## Key Features
 
