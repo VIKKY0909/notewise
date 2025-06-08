@@ -6,7 +6,7 @@ import { ThemeProvider } from '@/hooks/useTheme'; // Changed to ThemeProvider
 
 const siteName = 'NoteWise';
 const title = 'NoteWise - AI-Powered Study Tools for Notes, Summaries & Flashcards';
-const description = 'Boost your learning with NoteWise! Upload lectures or PDFs and get AI-generated notes, summaries, Q&A, and flashcards. The ultimate AI study assistant for exam preparation.';
+const description = 'NoteWise is your ultimate AI-powered study assistant. Use NoteWise to upload lectures or PDFs and get NoteWise-generated notes, NoteWise summaries, NoteWise Q&A, and NoteWise flashcards. Boost your learning with NoteWise for exam preparation.';
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:9002'; // Define a base URL
 
 export const metadata: Metadata = {
@@ -15,10 +15,11 @@ export const metadata: Metadata = {
     template: `%s | ${siteName}`,
   },
   description: description,
-  keywords: ['AI study tools', 'AI note generator', 'PDF to notes AI', 'document summarizer AI', 'AI flashcard maker', 'exam preparation AI', 'study assistant AI', 'automated study notes', 'NoteWise', 'AI learning'],
-  authors: [{ name: 'Firebase Studio' }],
-  creator: 'Firebase Studio',
-  publisher: 'Firebase Studio',
+  keywords: ['AI study tools', 'AI note generator', 'PDF to notes AI', 'document summarizer AI', 'AI flashcard maker', 'exam preparation AI', 'study assistant AI', 'automated study notes', 'NoteWise', 'AI learning','NoteWise', 'NoteWise AI', 'NoteWise study tools', 'NoteWise note generator', 'NoteWise PDF to notes', 'NoteWise document summarizer', 'NoteWise flashcard maker', 'NoteWise exam preparation', 'NoteWise study assistant', 'NoteWise automated notes', 'NoteWise learning'
+],
+  authors: [{ name: 'Vahane Vivek' }],
+  creator: 'Vahane Vivek',
+  publisher: 'Vahane Vivek',
   openGraph: {
     title: title,
     description: description,
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     siteName: siteName,
     images: [
       {
-        url: `${siteUrl}/og-image.png`, // Replace with your actual OG image URL
+        url: `${siteUrl}/og-image.png`, 
         width: 1200,
         height: 630,
         alt: 'NoteWise AI Study Tools',
@@ -39,11 +40,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: title,
     description: description,
-    // siteId: 'yourTwitterSiteId', // Optional: Your Twitter site ID
-    // creator: '@yourTwitterHandle', // Optional: Your Twitter handle
-    // creatorId: 'yourTwitterCreatorId', // Optional: Your Twitter creator ID
-    images: [`${siteUrl}/twitter-image.png`], // Replace with your actual Twitter image URL
-  },
+
+    images: [`${siteUrl}/twitter-image.png`],   },
   robots: {
     index: true,
     follow: true,
