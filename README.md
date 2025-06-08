@@ -30,8 +30,5 @@ This project is intended for personal or internal use only. It is not meant to b
 - `public/` – Static assets (images, icons, etc.).
 - `docs/` – Documentation (if any).
 
-## Usage
 
-This project is configured for personal deployment and experimentation.  
-If you are the project owner, refer to the internal documentation or comments in the codebase for setup and usage instructions.
 
